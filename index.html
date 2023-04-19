@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="Logo de alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="information">⚠ Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttons">
+                <button onclick=btnEncrypt() class="btn-encrypt">Encriptar</button>
+                <button onclick=btnDecrypt() class="btn-decrypt">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div class="container-message">
+                <textarea class="message message-image" cols="20" rows="10" disabled></textarea>                
+                <button onclick=btnCopy() class="copy">Copiar</button>            
+            </div>
+        </section>
+    </main>
+    <footer>                
+        <p class="social"><a target="_blank" href="https://github.com/smithrivas"><i class="fa-brands fa-github"></i></a>   <a target="_blank" href="https://www.linkedin.com/in/brayan-smith-rivas-bustos55b321104/"><i class="fa-brands fa-linkedin"></i></a></p>
+        <p class="info-footer">Web Developer: <i class="fas fa-terminal"></i><a target="_blank" href="https://github.com/smithrivas">Brayan Smith Rivas</a></p>        
+    </footer>
+    <script src="./js/script.js"></script>    
+    <script src="https://kit.fontawesome.com/f8db5cee1d.js" crossorigin="anonymous"></script>
+</body>
+</html>
