@@ -83,7 +83,7 @@ main{
 }
 
 .message-image{
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
 }
 .message{
     background-color: white;
